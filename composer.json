@@ -1,0 +1,29 @@
+{
+  "name": "gsedi/random-code-generator",
+  "description": "A PHP package for generation random codes",
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/gsedi/random-code-generator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sedi",
+      "email": "sedi.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.4|>=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "9.5.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "GSedi\\RandomCodeGenerator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GSedi\\RandomCodeGenerator\\Test\\": "tests"
+    }
+  }
+}
